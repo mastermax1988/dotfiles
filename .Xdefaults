@@ -1,0 +1,44 @@
+URxvt.buffered: true
+URxvt.background: #000000
+URxvt.foreground: #ffffff
+URxvt.transparent: true
+URxvt.shading: 20
+URxvt.secondaryScroll: true
+URxvt.scrollBar: false
+
+URxvt.perl-ext-common:  default,matcher,font-size,resize-font
+URxvt.urlLauncher:      /usr/bin/firefox
+URxvt.matcher.button:   1 
+
+URxvt.font:       xft:bitstream vera sans mono:size=12:altialias=true
+URxvt.boldFont:   xft:bitstream vera sans mono:bold:size=12:altialias=true
+
+URxvt*background: #000000
+URxvt*foreground: #dcdccc
+!black
+URxvt*color0: #1e1e1e
+URxvt*color8: #505050
+!red
+URxvt*color1: #b04020
+URxvt*color9: #dd4010
+!green
+URxvt*color2: #afd700
+URxvt*color10: #daff30
+!yellow
+URxvt*color3: #f7cf0a
+URxvt*color11: #fce70d
+!blue
+URxvt*color4: #3060aa
+URxvt*color12: #6099dd
+!magenta
+URxvt*color5: #d6156c
+URxvt*color13: #fe4365
+!cyan
+URxvt*color6: #a0c2de
+URxvt*color14: #c9dee8
+!white
+URxvt*color7: #808080
+URxvt*color15: #b0b0b0
+
+URxvt.keysym.C-Up:    perl:font-size:increase
+URxvt.keysym.C-Down:  perl:font-size:decrease
